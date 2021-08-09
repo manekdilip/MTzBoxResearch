@@ -1,0 +1,307 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shopper_smart_demo_lib"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:5-65
+14-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:9:22-62
+15
+16    <uses-feature
+16-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.camera"
+17-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+18        android:required="false" />
+18-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+21        android:required="false" />
+21-->[:react-native-camera] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+22
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23-->[:react-native-maps] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+23-->[:react-native-maps] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+26
+27    <uses-feature
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+28        android:glEsVersion="0x00020000"
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+29        android:required="true" />
+29-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+30
+31    <application
+31-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:6:5-24:19
+32        android:name="com.shopper_smart_demo_lib.MainApplication"
+32-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:7:7-38
+33        android:allowBackup="false"
+33-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:11:7-34
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:9:7-41
+37        android:label="@string/app_name"
+37-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:8:7-39
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:10:7-52
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme"
+40-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:12:7-38
+41        android:usesCleartextTraffic="true" >
+41-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/debug/AndroidManifest.xml:8:9-44
+42        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+42-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/debug/AndroidManifest.xml:11:9-86
+42-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/debug/AndroidManifest.xml:11:19-83
+43        <activity
+43-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:13:7-23:18
+44            android:name="com.shopper_smart_demo_lib.MainActivity"
+44-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:14:9-37
+45            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+45-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:16:9-86
+46            android:label="@string/app_name"
+46-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:15:9-41
+47            android:launchMode="singleTask"
+47-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:17:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:18:9-51
+49            <intent-filter>
+49-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:19:9-22:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:20:13-65
+50-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:20:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:21:13-73
+52-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:21:23-70
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-26:20
+56            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+56-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-84
+57            android:launchMode="singleTask"
+57-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-44
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+58-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-72
+59            <intent-filter>
+59-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-25:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-69
+60-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-76
+62-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-78
+63-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:27-75
+64
+65                <data android:scheme="com.shopper_smart_demo_lib.braintree" />
+65-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-69
+65-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:23-66
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[:react-native-razorpay] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:86
+69            android:name="com.razorpay.CheckoutActivity"
+69-->[:react-native-razorpay] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-57
+70            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+70-->[:react-native-razorpay] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-razorpay/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-83
+71            android:theme="@style/CheckoutTheme" >
+71-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:21:13-49
+72            <intent-filter>
+72-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:22:13-28:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:20:13-65
+73-->/Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/android/app/src/main/AndroidManifest.xml:20:21-62
+74
+75                <data
+75-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:17-69
+76                    android:host="rzp.io"
+77                    android:scheme="io.rzp" />
+77-->[:react-native-paypal] /Users/divyasharma/Desktop/React_Native/SHOPPER/shopper_smart_demo_lib/node_modules/react-native-paypal/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:23-66
+78            </intent-filter>
+79        </activity>
+80
+81        <service
+81-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+82            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+82-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+83            android:directBootAware="true"
+83-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+84            android:exported="false" >
+84-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+85            <meta-data
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+86                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f7ff6eb63aa1e3ea073666c14b514859/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+88            <meta-data
+88-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f39df081e10057909138456416ab1dab/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+89-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f39df081e10057909138456416ab1dab/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f39df081e10057909138456416ab1dab/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/8a88aae300aa83d5c14da36774d8b531/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+92-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/8a88aae300aa83d5c14da36774d8b531/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/8a88aae300aa83d5c14da36774d8b531/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+94            <meta-data
+94-->[com.google.mlkit:vision-common:16.5.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/aba78458a93c9ceecd48b55ba2824cd6/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+95                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+95-->[com.google.mlkit:vision-common:16.5.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/aba78458a93c9ceecd48b55ba2824cd6/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.mlkit:vision-common:16.5.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/aba78458a93c9ceecd48b55ba2824cd6/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+97            <meta-data
+97-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+98                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+98-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+100        </service>
+101
+102        <provider
+102-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+103            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+103-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+104            android:authorities="com.shopper_smart_demo_lib.mlkitinitprovider"
+104-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+105            android:exported="false"
+105-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+106            android:initOrder="99" />
+106-->[com.google.mlkit:common:17.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/bf5e10dabc875cb66e2e82010209511a/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+107
+108        <service
+108-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+109            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+109-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+110            android:exported="false" >
+110-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+111            <meta-data
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+112                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+113                android:value="cct" />
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/06cbf82235ff7888b1bd00b365b37ed7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+114        </service>
+115        <service
+115-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+116            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+116-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+117            android:exported="false"
+117-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" >
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+119        </service>
+120
+121        <receiver
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+122-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+123            android:exported="false" />
+123-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/87ab190c9cd170b303c55045ac8519f5/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+124        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+124-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:12:9-16:20
+124-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:12:19-63
+125            <intent-filter>
+125-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:13:13-15:29
+126                <action android:name="rzp.device_token.share" />
+126-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:14:17-65
+126-->[com.razorpay:checkout:1.6.9] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/ef8da0f6d03ec0073c79c39ca87dbca0/jetified-checkout-1.6.9/AndroidManifest.xml:14:25-62
+127            </intent-filter>
+128        </receiver>
+129
+130        <activity
+130-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+131            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+131-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+132            android:excludeFromRecents="true"
+132-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+135        <!--
+136            Service handling Google Sign-In user revocation. For apps that do not integrate with
+137            Google Sign-In, this service will never be started.
+138        -->
+139        <service
+139-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+140            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+140-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+141            android:exported="true"
+141-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+142            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+142-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+143            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+143-->[com.google.android.gms:play-services-auth:19.2.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/0cc0ef843c172e41779de44cec16bda5/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+144        <uses-library
+144-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+145            android:name="org.apache.http.legacy"
+145-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+146            android:required="false" />
+146-->[com.google.android.gms:play-services-maps:17.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/faf3edd0a0a40b32e6c32885cc662e42/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+147
+148        <activity
+148-->[com.google.android.gms:play-services-base:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+149            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+149-->[com.google.android.gms:play-services-base:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-base:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-base:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/7d64a1cd2514583b2a458dd887234110/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+152
+153        <provider
+153-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+154            android:name="com.google.firebase.provider.FirebaseInitProvider"
+154-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+155            android:authorities="com.shopper_smart_demo_lib.firebaseinitprovider"
+155-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+158            android:initOrder="100" />
+158-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+159
+160        <service
+160-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+161            android:name="com.google.firebase.components.ComponentDiscoveryService"
+161-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:34:13-84
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+163            android:exported="false" />
+163-->[com.google.firebase:firebase-common:20.0.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/f8ae34a8c3b0d31be812a2c2336520fd/jetified-firebase-common-20.0.0/AndroidManifest.xml:36:13-37
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:17.6.0] /Users/divyasharma/.gradle/caches/transforms-2/files-2.1/b30aa8f2c38872540ef1352302c9199c/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+168    </application>
+169
+170</manifest>

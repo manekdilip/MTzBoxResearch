@@ -1,0 +1,14 @@
+com/shopper_smart_demo_lib/MainActivity.java
+ com.shopper_smart_demo_lib.MainActivity
+com/shopper_smart_demo_lib/MainApplication.java
+ com.shopper_smart_demo_lib.MainApplication
+ com.shopper_smart_demo_lib.MainApplication$1
+com/shopper_smart_demo_lib/BuildConfig.java
+ com.shopper_smart_demo_lib.BuildConfig
+com/shopper_smart_demo_lib/ReactNativeFlipper.java
+ com.shopper_smart_demo_lib.ReactNativeFlipper
+ com.shopper_smart_demo_lib.ReactNativeFlipper$1
+ com.shopper_smart_demo_lib.ReactNativeFlipper$2
+ com.shopper_smart_demo_lib.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shopper_smart_demo_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/shopper_smart_demo_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/shopper_smart_demo_lib.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/shopper_smart_demo_lib.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1173462491/shopper_smart_demo_lib.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/-1173462491/shopper_smart_demo_lib.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1536794320/shopper_smart_demo_lib.react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/.idea/modules/1536794320/shopper_smart_demo_lib.react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1402384407/shopper_smart_demo_lib.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1402384407/shopper_smart_demo_lib.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1267523706/shopper_smart_demo_lib.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1267523706/shopper_smart_demo_lib.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/153842189/shopper_smart_demo_lib.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/153842189/shopper_smart_demo_lib.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/445206515/shopper_smart_demo_lib.react-native-paypal.iml" filepath="$PROJECT_DIR$/.idea/modules/445206515/shopper_smart_demo_lib.react-native-paypal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1869737830/shopper_smart_demo_lib.react-native-razorpay.iml" filepath="$PROJECT_DIR$/.idea/modules/-1869737830/shopper_smart_demo_lib.react-native-razorpay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-271490346/shopper_smart_demo_lib.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-271490346/shopper_smart_demo_lib.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-492094137/shopper_smart_demo_lib.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-492094137/shopper_smart_demo_lib.react-native-screens.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.braintreepayments.api:braintree:3.17.3@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d77857f353f6ccc092e8b27126d0264/jetified-braintree-3.17.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d77857f353f6ccc092e8b27126d0264/jetified-braintree-3.17.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d77857f353f6ccc092e8b27126d0264/jetified-braintree-3.17.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d77857f353f6ccc092e8b27126d0264/jetified-braintree-3.17.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/braintree/3.17.3/a7238944bb97b334126ec06f591de7488aaae4aa/braintree-3.17.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.braintreepayments.api/braintree/3.17.3/da9de305d376dfbfc73fd250934446eb35aabd06/braintree-3.17.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
