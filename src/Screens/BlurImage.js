@@ -42,7 +42,7 @@ export default class BlurImage extends Component {
                     />
                     <Text style={{ fontSize: 20, marginTop: 10 }}>
                         Test modal with blur background
-          </Text>
+                    </Text>
                     <TouchableWithoutFeedback onPress={() => this.closeModal()}>
                         <View style={styles.closebtnView}>
                             <Text style={{ fontSize: 20, textAlign: 'center' }}>close</Text>
@@ -99,7 +99,7 @@ export default class BlurImage extends Component {
                         industry. Lorem Ipsum has been the industry's standard dummy text
                         since the 1500s, when an unknown printer took a galley of type and
                         scrambled it to make a type specimen book
-          </Text>
+                    </Text>
                 </View>
                 <View style={styles.blurToggle}>
                     <TouchableWithoutFeedback onPress={() => this.openModal()}>
