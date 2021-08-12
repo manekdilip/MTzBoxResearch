@@ -6,3 +6,6 @@ Lib name - https://www.npmjs.com/package/react-native-billing
 11-08-21 = Today's RnD topic is  spotlight feature for registering seller
 doc link(it's from my personal id because official link is not generated today i share the pdf to client) - https://docs.google.com/document/d/1uGtgwCXY6RLTpflwmG2_NR3pbuUSenNEAWimkCS5vAk/edit#
 
+12-08-21 = Today's RnD topic is Driver app flow
+Doc Link - https://docs.google.com/document/d/16lD_AnKlauUJdy2TcgK_lupA-PZzNrqTPTGkeWgtni4/edit?usp=sharing
+
