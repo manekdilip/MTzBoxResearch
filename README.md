@@ -9,3 +9,5 @@ doc link(it's from my personal id because official link is not generated today i
 12-08-21 = Today's RnD topic is Driver app flow
 Doc Link - https://docs.google.com/document/d/16lD_AnKlauUJdy2TcgK_lupA-PZzNrqTPTGkeWgtni4/edit?usp=sharing
 
+13-08-21 = Today's RnD topic is customer management flow
+Doc Link - https://docs.google.com/document/d/1XD_DIpgPTTWZiCRQyZ3fgvxa7ndDm0Ne-v9RbBGT1NY/edit?usp=sharing
